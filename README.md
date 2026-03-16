@@ -70,16 +70,90 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 
 ### 3. Entregando o Desafio na DIO
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+- Seu **prompt final**(PRD);
 
-- Seu **prompt final** (PRD);  
+```txt
+# 📘 PRD – Aplicativo de Organização de Finanças Pessoais Conversacional
+
+1. Visão Geral
+O aplicativo tem como objetivo simplificar o controle financeiro por meio de interações em linguagem natural, sem necessidade de formulários complexos ou planilhas. O diferencial está na experiência de conversa com um “Agente Financeiro” que guia o usuário de forma prática e educativa.
+
+2. Problema a Resolver
+- Usuários desistem de apps financeiros por excesso de entradas manuais.
+- Falta de personalização e recomendações práticas.
+- Dificuldade em manter consistência no controle de gastos.
+
+3. Público-Alvo
+- Pessoas iniciantes no controle financeiro.
+- Usuários que buscam praticidade e simplicidade.
+- Jovens adultos e profissionais que querem organizar gastos sem burocracia.
+
+4. Objetivos do Produto
+- Facilitar o registro de gastos e receitas via chat.
+- Automatizar a categorização de transações.
+- Oferecer relatórios claros e metas acessíveis.
+- Educar o usuário com dicas de economia personalizadas.
+
+5. Funcionalidades-Chave (MVP)
+- Chat Financeiro: registrar gastos e receitas em linguagem natural.  
+  Exemplo: “Gastei R$50 no mercado ontem”.
+- Classificação Automática: algoritmo que identifica categorias (alimentação, transporte, lazer).
+- Metas Financeiras: definir objetivos simples (ex.: economizar R$200/mês) e acompanhar com notificações amigáveis.
+- Agente Financeiro: recomendações de economia baseadas no histórico e mensagens educativas.
+- Relatórios Personalizados: gráficos simples (pizza, barras) e insights rápidos como “Você gastou 30% em alimentação”.
+
+6. Principais Telas do MVP
+- Tela de Conversa: interface principal para registrar e interagir.
+- Tela de Metas: definir e acompanhar objetivos.
+- Tela de Relatórios: visão geral dos gastos e economia.
+- Tela de Configurações: preferências e categorias personalizadas.
+
+7. Recursos Necessários
+- Processamento de Linguagem Natural (NLP) para interpretar mensagens.
+- Banco de Dados para armazenar transações e metas.
+- Motor de Classificação para categorizar gastos automaticamente.
+- Sistema de Notificações para lembretes e dicas.
+- Camada de Segurança (criptografia de dados financeiros).
+
+8. Validação Inicial
+- Teste com grupo piloto de 20–30 usuários iniciantes.
+- Métricas de sucesso:
+  - % de usuários que registram gastos diariamente.
+  - % de metas alcançadas.
+  - Nível de satisfação (NPS).
+- Feedback qualitativo: entrevistas rápidas sobre experiência de uso.
+
+9. Diferenciais Educativos
+- Linguagem acessível e amigável.
+- Explicações simples sobre conceitos financeiros.
+- Reforço positivo para incentivar hábitos saudáveis de economia.
+```
+
 - Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+<img width="1848" height="826" alt="image" src="https://github.com/user-attachments/assets/7e5e3847-032a-4f38-bad5-40b523dc1fbb" />
+<img width="1652" height="832" alt="image" src="https://github.com/user-attachments/assets/437ca89f-6269-43f7-9c5e-04487d214936" />
+
+- Um resumo do que o seu **Saldo** faz;  
+O Saldo é um aplicativo de finanças pessoais com foco em simplicidade e interação natural. Ele transforma o controle financeiro em uma experiência de conversa, eliminando a necessidade de formulários ou planilhas.
+
+O que o app faz
+Chat: Permite registrar gastos e receitas em linguagem natural, com categorização automática e exibição de cards de transação diretamente na conversa.
+<img width="1848" height="826" alt="image" src="https://github.com/user-attachments/assets/7e5e3847-032a-4f38-bad5-40b523dc1fbb" />
+
+Metas: Ajuda a definir objetivos financeiros e acompanhar o progresso por meio de barras animadas.
+<img width="1708" height="837" alt="image" src="https://github.com/user-attachments/assets/81bf820c-1937-4f4a-a20c-62f2c83a7b01" />
+
+Relatórios: Oferece uma visão geral dos gastos com gráficos horizontais por categoria e insights claros sobre hábitos de consumo.
+<img width="1644" height="833" alt="image" src="https://github.com/user-attachments/assets/f12f4867-e142-4cab-a07b-447d48ecf382" />
+
+Configurações: Dá ao usuário controle sobre preferências e personalização da experiência.
+<img width="1552" height="838" alt="image" src="https://github.com/user-attachments/assets/010e7c9d-492b-42ed-a79a-c4152711423a" />
+
+Design
+O visual segue um estilo moderno e consistente, com tipografia Inter, paleta indigo/esmeralda, números tabulares, sombras em camadas, layout mobile-first e animações criadas com Framer Motion.
+
+Diferencial
+O Saldo se destaca por oferecer uma experiência conversacional para organizar finanças, tornando o processo mais leve e acessível. O próximo passo para evoluir o app é integrar o Lovable Cloud com IA, trazendo processamento de linguagem natural avançado para interpretar melhor os registros e oferecer recomendações personalizadas.
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
